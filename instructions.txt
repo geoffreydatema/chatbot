@@ -1,0 +1,29 @@
+Objective
+
+    For this exercise, we will code a chatbot (albeit one with limited functionality). The chatbot will have the ability to differentiate between general input and yes/no questions, giving appropriate responses accordingly.
+
+
+Requirements
+
+    Create an HTML interface with the following elements:
+        A <textarea> for responses
+        An <input> for input
+        A <button> for submitting input
+
+    Store sets of words as arrays:
+        Greetings
+        Punctuation
+        Prompts
+        Question words
+        Question responses
+        General responses
+
+    Initially, prompt the user to enter their name
+
+    Use an Event Listener to handle a click event for the button
+
+    As the first response, have the chatbot greet the user using a randomly selected greeting
+
+    Check the first word of subsequent input, and if it matches a question word, have the chatbot respond appropriately:
+        If the user asked a yes/no question, give a randomly selected answer from the corresponding array
+        If the user entered something else, give a random generic response
